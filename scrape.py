@@ -20,5 +20,7 @@ def jsonify(day):
   return day
 
 days = map(jsonify, days)
+days = sorted(days, key=lambda x: x['date'])
+
 with open('docs/trackdays.json', 'w') as fd:
-  fd.write(json.dumps(days))
+  fd.write(json.dumps(days, sort_keys=True, indent=4, separators=(',', ': ')))
