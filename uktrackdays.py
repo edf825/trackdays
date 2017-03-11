@@ -9,12 +9,13 @@ def commentToCompany(comment):
 
   if content.startswith('castle combe'):
     return Company.CASTLE_COMBE
-  elif content.startswith('silverstone'):
-    return Company.SILVERSTONE
   elif content.startswith('bikedays.co'):
     return Company.BIKEDAYS_CO
   elif content.startswith('phil bevan'):
 # These are all dupes of trackdays.co.uk days.
+    return None
+  elif content.startswith('silverstone'):
+# Also duped at trackdays.co.uk.
     return None
   elif content.startswith('no limits'):
 # We already scrape No Limits.

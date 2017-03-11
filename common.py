@@ -20,7 +20,8 @@ class Company(IntEnum):
   TRACKDAYS = 2
   FOCUSED = 3
   CASTLE_COMBE = 4
-  SILVERSTONE = 5
+# Duped at trackdays.co.uk
+# SILVERSTONE = 5
 # All dupes of trackdays.co.uk
 # PHIL_BEVAN = 6
   BIKEDAYS_CO = 7
