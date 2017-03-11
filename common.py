@@ -21,7 +21,8 @@ class Company(IntEnum):
   FOCUSED = 3
   CASTLE_COMBE = 4
   SILVERSTONE = 5
-  PHIL_BEVAN = 6
+# All dupes of trackdays.co.uk
+# PHIL_BEVAN = 6
   BIKEDAYS_CO = 7
 
 def fetch_soup(filename, url):

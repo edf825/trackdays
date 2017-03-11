@@ -11,12 +11,13 @@ def commentToCompany(comment):
     return Company.CASTLE_COMBE
   elif content.startswith('silverstone'):
     return Company.SILVERSTONE
-  elif content.startswith('phil bevan'):
-    return Company.PHIL_BEVAN
   elif content.startswith('bikedays.co'):
     return Company.BIKEDAYS_CO
-# We already scrape No Limits
+  elif content.startswith('phil bevan'):
+# These are all dupes of trackdays.co.uk days.
+    return None
   elif content.startswith('no limits'):
+# We already scrape No Limits.
     return None
   raise Exception('Unknown company ' + content)
 
