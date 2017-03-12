@@ -14,11 +14,11 @@ def toKind(kind):
     return Kind.RBO
   return None
 
-def parse(event):
-  url = event.a['href']
+def parse(elem):
+  url = elem.a['href']
   date = re.search('date=([0-9\-]+)', url).group(1)
-  track = event.h3.contents[0].strip()
-  desc = event.find_next('span').contents[0].strip()
+  track = elem.h3.contents[0].strip()
+  desc = elem.find_next('span').contents[0].strip()
   kind = toKind(re.search('event=(\d+)', url).group(1))
 
   if not kind:
@@ -29,7 +29,8 @@ def parse(event):
     'date': parser.parse(date),
     'track': track,
     'kind': kind,
-    'desc': desc
+    'desc': desc,
+    'url': 'http://nolimitstrackdays.com' + url,
   }
 
 def scrape():

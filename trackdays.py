@@ -68,6 +68,7 @@ def parse(elem):
   date = parser.parse(date, dayfirst=True)
   kind = toKind(desc)
   circuit = cleanCircuit(circuit, subcircuit)
+  url = 'https://www.trackdays.co.uk' + elem.a['href'] if elem.a else None
 
   return {
     'company': Company.TRACKDAYS,
@@ -75,6 +76,7 @@ def parse(elem):
     'track': circuit,
     'kind': kind,
     'desc': desc,
+    'url': url,
   }
 
 def scrape():

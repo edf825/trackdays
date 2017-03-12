@@ -72,7 +72,8 @@ def parse(elem):
     'date': date,
     'track': track,
     'kind': Kind.NORMAL,
-    'desc': desc
+    'desc': desc,
+    'url': 'http://www.msvtrackdays.com' + url
   }
 
   for m in meta[1:]:

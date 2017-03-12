@@ -30,6 +30,7 @@ def parse(elem):
     return None
 
   kind = kindFromDesc(desc)
+  url = 'http://www.focusedevents.com' + elem.a.find_next('a')['href']
 
   return {
     'company': Company.FOCUSED,
@@ -37,6 +38,7 @@ def parse(elem):
     'track': track,
     'kind': kind,
     'desc': desc,
+    'url': url,
   }
 
 def scrape():
