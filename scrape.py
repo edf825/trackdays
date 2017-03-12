@@ -4,13 +4,11 @@ import focused
 import msv
 import nolimits
 import trackdays
-import uktrackdays
 
 days = focused.scrape() +       \
        msv.scrape() +           \
        nolimits.scrape() +      \
-       trackdays.scrape() +     \
-       uktrackdays.scrape()
+       trackdays.scrape()
 
 # apparently datetimes aren't json friendly. hrm.
 def jsonify(day):
