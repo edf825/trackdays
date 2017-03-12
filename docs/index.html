@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Consolidated UK Track Day List</title>
+        <style type="text/css">
+
+         body {
+             font-family: sans-serif;
+         }
+
+         .hidden {
+             display: none;
+         }
+
+         .dategroup {
+             margin: 0;
+             padding: 10pt 10pt 5pt 10pt;
+             border-left: 10pt solid transparent;
+             border-right: 10pt solid transparent;
+         }
+
+         .dategroup:nth-child(2n) {
+         }
+
+         .dategroup:nth-child(2n+1) {
+             background-color: rgba(0, 0, 0, 0.05);
+         }
+
+         .dategroup.weekend {
+             border-color: #ff8;
+         }
+
+         .dategroup.holiday {
+             border-color: #aff;
+         }
+
+         .event {
+             margin: 10pt;
+             margin-left: 20pt;
+         }
+
+         .eventHead {
+             margin-bottom: 6pt;
+         }
+
+         .track {
+             display: inline;
+             font-weight: bold;
+             text-decoration: none;
+             color: initial;
+         }
+
+         .company, .kind {
+             font-size: 10pt;
+             display: float;
+             float: right;
+             padding: 2pt 5pt 0 5pt;
+             border-top: 3pt solid transparent;
+             margin: -3pt 0 3pt 12pt;
+         }
+
+         .kind-normal { border-color: yellow; }
+         .kind-evening { border-color: orange; }
+         .kind-opl { border-color: #f66; }
+         .kind-rbo { border-color: cyan; }
+         .kind-novice { border-color: #4f4; }
+         .kind-training { border-color: #66f; }
+
+         .company-msv { border-color: orange; }
+         .company-nolimits { border-color: yellow; }
+         .company-trackdays { border-color: #f66; }
+         .company-focused { border-color: #66f; }
+
+         .desc {
+             font-size: 10pt;
+             color: #777;
+         }
+
+         #map {
+             position: fixed;
+             height: 80%;
+             top: 0;
+             right: 0;
+             z-index: -1;
+             min-width: 0;
+         }
+
+         #map img {
+             height: 100%;
+             opacity: 0.2;
+         }
+
+         .marker {
+             position: absolute;
+             border: 3pt solid rgba(0, 0, 0, 0.2);
+             border-radius: 3pt;
+             width: 0;
+             height: 0;
+         }
+
+         .marker-highlight {
+             border-color: green;
+             border-radius: 5pt;
+             border-width: 5pt;
+             margin: -2pt -8pt -8pt -2pt;
+         }
+
+         /* this is terrible. */
+         #marker-snetterton { left: 84%; top: 64%; }
+         #marker-bedford { left: 74%; top: 68%; }
+         #marker-croft { left: 68%; top: 47.5%; }
+         #marker-silverstone { left: 71%; top: 67.4%; }
+         #marker-mallory { left: 69.5%; top: 63.5%; }
+         #marker-donington { left: 69%; top: 61.7%; }
+         #marker-blyton { left: 72%; top: 56%; }
+         #marker-anglesey { left: 47%; top: 58%; }
+         #marker-rockingham { left: 72%; top: 65%; }
+         #marker-cadwell { left: 77%; top: 57.4%; }
+         #marker-lydden { left: 85.5%; top: 74%; }
+         #marker-pembrey { left: 48%; top: 70%; }
+         #marker-brands { left: 79%; top: 73%; }
+         #marker-castle { left: 62%; top: 72%; }
+         #marker-oulton { left: 59%; top: 58%; }
+
+        </style>
+    </head>
+    <body>
+        <div id="loading">
+            Loading track list...
+        </div>
+        <div id="container">
+        </div>
+        <div id="map" >
+            <img src="map.svg" />
+            <div class="marker" id="marker-snetterton"></div>
+            <div class="marker" id="marker-bedford"></div>
+            <div class="marker" id="marker-croft"></div>
+            <div class="marker" id="marker-silverstone"></div>
+            <div class="marker" id="marker-mallory"></div>
+            <div class="marker" id="marker-donington"></div>
+            <div class="marker" id="marker-blyton"></div>
+            <div class="marker" id="marker-anglesey"></div>
+            <div class="marker" id="marker-rockingham"></div>
+            <div class="marker" id="marker-cadwell"></div>
+            <div class="marker" id="marker-lydden"></div>
+            <div class="marker" id="marker-pembrey"></div>
+            <div class="marker" id="marker-brands"></div>
+            <div class="marker" id="marker-castle"></div>
+            <div class="marker" id="marker-oulton"></div>
+        </div>
+
+        <script type="text/javascript">
+         "use strict";
+         var containerElem = document.getElementById('container');
+         var loadingElem = document.getElementById('loading');
+
+         var bankHolidays = [
+             '2017-04-14',
+             '2017-04-17',
+             '2017-05-01',
+             '2017-05-29',
+             '2017-08-28',
+             '2017-12-25',
+             '2017-12-26',
+             '2018-01-01',
+             '2018-03-30',
+             '2018-04-02',
+             '2018-05-07',
+             '2018-05-28',
+             '2018-08-27',
+             '2018-12-25',
+             '2018-12-26',
+         ]
+
+         var kinds = [
+             { label: "Standard Track Day", class: "kind-normal" },
+             { label: "Evening Track Day", class: "kind-evening" },
+             { label: "Open Pitlane Track Day", class: "kind-opl" },
+             { label: "Road Bikes Only Track Day", class: "kind-rbo" },
+             { label: "Novice Only Track Day", class: "kind-novice" },
+             { label: "Training Day", class: "kind-training" },
+         ]
+
+         var companies = [
+             { label: "Motorsport Vision", class: "company-msv" },
+             { label: "No Limits", class: "company-nolimits" },
+             { label: "Trackdays.co.uk", class: "company-trackdays" },
+             { label: "Focused Events", class: "company-focused" },
+             { label: "Castle Combe Racing School", class: "company-cc" },
+             { label: "Silverstone Circuit Ltd", class: "company-silverstone" },
+             { label: "Phil Bevan Racing", class: "company-philbevan" },
+             { label: "Bikedays.co", class: "company-bikedays" },
+         ]
+
+         let req = new XMLHttpRequest();
+         req.addEventListener('load', handleLoad);
+         req.addEventListener('error', handleError);
+         req.responseType = 'json';
+         req.open('GET', 'trackdays.json');
+         req.send();
+
+         function handleLoad() {
+             let events = this.response;
+
+             let dates = [];
+             for (let event of this.response) {
+                 let kind = kinds[event.kind];
+                 let company = companies[event.company];
+                 let date = Date.parse(event.date);
+
+                 let outerElem = document.createElement("div");
+                 outerElem.classList.add("event");
+
+                 let headElem = document.createElement("div");
+                 headElem.classList.add("eventHead");
+
+                 let trackElem = document.createElement("a");
+                 trackElem.innerHTML = event.track;
+                 trackElem.className = "track";
+                 if (event.url) {
+                     trackElem.href = event.url;
+                 } else {
+                     // TODO handle full
+                 }
+                 headElem.appendChild(trackElem);
+
+                 let kindElem = document.createElement("span");
+                 kindElem.innerHTML = kind.label;
+                 kindElem.classList.add("kind", kind.class);
+                 headElem.appendChild(kindElem);
+
+                 let companyElem = document.createElement("span");
+                 companyElem.innerHTML = company.label;
+                 companyElem.classList.add("company", company.class);
+                 headElem.appendChild(companyElem);
+
+                 outerElem.appendChild(headElem);
+
+                 let descElem = document.createElement("div");
+                 descElem.innerHTML = event.desc;
+                 descElem.classList.add("desc");
+                 outerElem.appendChild(descElem);
+
+                 let trackId = event.track.split(' ')[0].toLowerCase();
+                 outerElem.addEventListener('mouseover', function() {
+                     let marker = document.getElementById('marker-' + trackId);
+                     if (!marker) return;
+                     marker.classList.add('marker-highlight');
+                 });
+                 outerElem.addEventListener('mouseout', function() {
+                     let marker = document.getElementById('marker-' + trackId);
+                     if (!marker) return;
+                     marker.classList.remove('marker-highlight');
+                 });
+
+                 if (!dates[event.date]) {
+                     dates[event.date] = [];
+                 }
+                 dates[event.date].push(outerElem);
+             }
+
+             for (let dateStr in dates) {
+                 let outerElem = document.createElement("div");
+                 outerElem.classList.add("dategroup");
+
+                 if (bankHolidays.indexOf(dateStr) >= 0) {
+                     outerElem.classList.add("holiday");
+                 }
+
+                 let date = new Date(dateStr);
+
+                 if (date.getDay() == 0 || date.getDay() == 6) {
+                     outerElem.classList.add("weekend");
+                 }
+
+                 let dateElem = document.createElement("div");
+                 dateElem.classList.add("date");
+                 dateElem.innerHTML = formatDate(date);
+                 outerElem.appendChild(dateElem);
+
+                 for (let child of dates[dateStr]) {
+                     outerElem.appendChild(child);
+                 }
+
+                 containerElem.appendChild(outerElem);
+             }
+
+             loadingElem.className = "hidden";
+         }
+
+         function handleError() {
+             loadingElem.innerHTML =
+                 "ERROR loading track day list: " + this.reponseText;
+         }
+
+         function formatDate(date) {
+             let days = [ "Sunday", "Monday", "Tuesday", "Wednesday",
+                          "Thursday", "Friday", "Saturday" ];
+             let months = [ "January", "February", "March", "April", "May",
+                            "June", "July", "August", "September", "October",
+                            "November", "December" ];
+
+             return days[date.getDay()] + " " + date.getDate() + " " +
+                    months[date.getMonth()] + " " + date.getFullYear();
+         }
+        </script>
+    </body>
+</html>
