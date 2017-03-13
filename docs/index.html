@@ -57,6 +57,16 @@
              color: initial;
          }
 
+         .full {
+             position: relative;
+             top: -2pt;
+             font-size: 8pt;
+             background-color: darkred;
+             color: white;
+             padding: 2pt 5pt 2pt 5pt;
+             margin: 0 10pt;
+         }
+
          .company, .kind {
              font-size: 10pt;
              display: float;
@@ -232,7 +242,10 @@
                  if (event.url) {
                      trackElem.href = event.url;
                  } else {
-                     // TODO handle full
+                     let fullElem = document.createElement("span");
+                     fullElem.innerHTML = "full?"
+                     fullElem.classList.add("full");
+                     trackElem.appendChild(fullElem);
                  }
                  headElem.appendChild(trackElem);
 
