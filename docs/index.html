@@ -12,6 +12,16 @@
              display: none;
          }
 
+         #legend {
+             margin: 20pt 20pt;
+         }
+
+         .legend-item {
+             border-left: 20pt solid transparent;
+             margin: 20pt;
+             padding-left: 10pt;
+         }
+
          .dategroup {
              margin: 0;
              padding: 10pt 10pt 5pt 10pt;
@@ -20,17 +30,14 @@
          }
 
          .dategroup:nth-child(2n) {
-         }
-
-         .dategroup:nth-child(2n+1) {
              background-color: rgba(0, 0, 0, 0.05);
          }
 
-         .dategroup.weekend {
+         .weekend {
              border-color: #ff8;
          }
 
-         .dategroup.holiday {
+         .holiday {
              border-color: #aff;
          }
 
@@ -129,6 +136,11 @@
             Loading track list...
         </div>
         <div id="container">
+            <div id="legend">
+                <strong>Legend:</strong>
+                <span class="legend-item weekend">Weekend</span>
+                <span class="legend-item holiday">Bank Holiday</span>
+            </div>
         </div>
         <div id="map" >
             <img src="map.svg" />
