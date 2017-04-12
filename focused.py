@@ -30,7 +30,10 @@ def parse(elem):
     return None
 
   kind = kindFromDesc(desc)
-  url = 'http://www.focusedevents.com' + elem.a.find_next('a')['href']
+
+  url = None
+  if elem.a:
+    url = 'http://www.focusedevents.com' + elem.a.find_next('a')['href']
 
   return {
     'company': Company.FOCUSED,
