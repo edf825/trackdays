@@ -1,109 +1,5 @@
 [
     {
-        "company": 1,
-        "date": "2017-04-12",
-        "desc": "Open Pitlane, experienced riders only please.\r\n noise level 105db static. \u00a3115.00",
-        "kind": 2,
-        "track": "Cadwell Park",
-        "url": "http://nolimitstrackdays.com/book/#/link?track=39&date=2017-04-12&event=38"
-    },
-    {
-        "company": 2,
-        "date": "2017-04-14",
-        "desc": "3 Groups p/h",
-        "kind": 0,
-        "track": "Blyton Park Outer",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/10833/"
-    },
-    {
-        "company": 0,
-        "date": "2017-04-14",
-        "desc": "Easter Friday Bike Track Day (BSB)",
-        "kind": 0,
-        "track": "Brands Hatch Indy",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/apr/14-bh-bsb-am.aspx"
-    },
-    {
-        "company": 2,
-        "date": "2017-04-14",
-        "desc": "3 Groups p/h",
-        "kind": 0,
-        "track": "Cadwell Park",
-        "url": null
-    },
-    {
-        "company": 2,
-        "date": "2017-04-14",
-        "desc": "3 Groups p/h",
-        "kind": 0,
-        "track": "Rockingham International",
-        "url": null
-    },
-    {
-        "company": 0,
-        "date": "2017-04-15",
-        "desc": "General Bike Track Day",
-        "kind": 0,
-        "track": "Bedford Autodrome SW",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/apr/15-ba.aspx"
-    },
-    {
-        "company": 0,
-        "date": "2017-04-15",
-        "desc": "General Bike Track Day",
-        "kind": 0,
-        "track": "Cadwell Park",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/apr/15-cp.aspx"
-    },
-    {
-        "company": 2,
-        "date": "2017-04-15",
-        "desc": "3 Groups p/h",
-        "kind": 0,
-        "track": "Rockingham International",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/10607/"
-    },
-    {
-        "company": 0,
-        "date": "2017-04-15",
-        "desc": "General Bike Track Day",
-        "kind": 0,
-        "track": "Snetterton 300",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/apr/15-sn.aspx"
-    },
-    {
-        "company": 2,
-        "date": "2017-04-16",
-        "desc": "3 Groups p/h",
-        "kind": 0,
-        "track": "Anglesey International GP",
-        "url": null
-    },
-    {
-        "company": 0,
-        "date": "2017-04-16",
-        "desc": "Novice Only Track Day",
-        "kind": 4,
-        "track": "Snetterton 300",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/apr/16-sn-n.aspx"
-    },
-    {
-        "company": 2,
-        "date": "2017-04-17",
-        "desc": "3 Groups p/h",
-        "kind": 0,
-        "track": "Anglesey International GP",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/10605/"
-    },
-    {
-        "company": 2,
-        "date": "2017-04-17",
-        "desc": "3 Groups p/h",
-        "kind": 0,
-        "track": "Snetterton 300",
-        "url": null
-    },
-    {
         "company": 0,
         "date": "2017-04-18",
         "desc": "General Bike Track Day",
@@ -334,14 +230,6 @@
         "kind": 0,
         "track": "Bedford Autodrome SW",
         "url": "http://www.msvtrackdays.com/bike/calendar/2017/may/1-ba.aspx"
-    },
-    {
-        "company": 3,
-        "date": "2017-05-01",
-        "desc": "BMW Track and Training day Level 1",
-        "kind": 5,
-        "track": "Silverstone",
-        "url": "http://www.focusedevents.com/silverstone-track-training-01-may-2017-uk-trackday-700"
     },
     {
         "company": 3,
@@ -1986,18 +1874,18 @@
     {
         "company": 2,
         "date": "2017-07-17",
-        "desc": "2 Groups p/h",
-        "kind": 0,
-        "track": "Snetterton 300",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/10854/"
-    },
-    {
-        "company": 2,
-        "date": "2017-07-17",
         "desc": "3 Groups p/h",
         "kind": 0,
         "track": "Snetterton 300",
         "url": "https://www.trackdays.co.uk/book/biketrackday/10853/"
+    },
+    {
+        "company": 2,
+        "date": "2017-07-17",
+        "desc": "2 Groups p/h",
+        "kind": 0,
+        "track": "Snetterton 300",
+        "url": "https://www.trackdays.co.uk/book/biketrackday/10854/"
     },
     {
         "company": 3,
