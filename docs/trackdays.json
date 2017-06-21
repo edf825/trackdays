@@ -1,261 +1,5 @@
 [
     {
-        "company": 3,
-        "date": "2017-06-05",
-        "desc": "Silverstone MotoGP",
-        "kind": 0,
-        "track": "Silverstone - Moto GP",
-        "url": "http://www.focusedevents.com/silverstone-moto-gp-05-june-2017-uk-trackday-776"
-    },
-    {
-        "company": 1,
-        "date": "2017-06-12",
-        "desc": "2 groups noise level 105db static. \u00a345.00",
-        "kind": 1,
-        "track": "Cadwell Park",
-        "url": "http://nolimitstrackdays.com/book/#/link?track=39&date=2017-06-12&event=21"
-    },
-    {
-        "company": 2,
-        "date": "2017-06-12",
-        "desc": "4 Groups p/h",
-        "kind": 0,
-        "track": "Cadwell Park",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/10799/"
-    },
-    {
-        "company": 2,
-        "date": "2017-06-12",
-        "desc": "2 Groups p/h Evening",
-        "kind": 1,
-        "track": "Cadwell Park",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/10800/"
-    },
-    {
-        "company": 0,
-        "date": "2017-06-12",
-        "desc": "General Bike Track Day",
-        "kind": 0,
-        "track": "Snetterton 300",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/june/12-sn.aspx"
-    },
-    {
-        "company": 0,
-        "date": "2017-06-12",
-        "desc": "General Bike Track Evening",
-        "kind": 1,
-        "track": "Snetterton 300",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/june/12-sn-eve.aspx"
-    },
-    {
-        "company": 0,
-        "date": "2017-06-13",
-        "desc": "General Bike Track Day - with Shakey Byrne",
-        "kind": 0,
-        "track": "Brands Hatch Indy",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/june/13-bh.aspx"
-    },
-    {
-        "company": 0,
-        "date": "2017-06-13",
-        "desc": "General Bike Track Evening",
-        "kind": 1,
-        "track": "Brands Hatch Indy",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/june/13-bh-eve.aspx"
-    },
-    {
-        "company": 1,
-        "date": "2017-06-13",
-        "desc": "2 groups noise level 105db static. \u00a345.00",
-        "kind": 1,
-        "track": "Cadwell Park",
-        "url": "http://nolimitstrackdays.com/book/#/link?track=39&date=2017-06-13&event=21"
-    },
-    {
-        "company": 2,
-        "date": "2017-06-13",
-        "desc": "3 Groups p/h",
-        "kind": 0,
-        "track": "Cadwell Park",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/10802/"
-    },
-    {
-        "company": 2,
-        "date": "2017-06-13",
-        "desc": "2 Groups p/h Evening",
-        "kind": 1,
-        "track": "Cadwell Park",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/10803/"
-    },
-    {
-        "company": 0,
-        "date": "2017-06-13",
-        "desc": "General Bike Track Day",
-        "kind": 0,
-        "track": "Oulton Park",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/june/13-op.aspx"
-    },
-    {
-        "company": 2,
-        "date": "2017-06-13",
-        "desc": "3 Groups p/h",
-        "kind": 0,
-        "track": "Silverstone Grand Prix",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/10801/"
-    },
-    {
-        "company": 0,
-        "date": "2017-06-13",
-        "desc": "Open Pitlane Track Day",
-        "kind": 2,
-        "track": "Snetterton 300",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/june/13-sn-opl.aspx"
-    },
-    {
-        "company": 2,
-        "date": "2017-06-14",
-        "desc": "4 Groups p/h",
-        "kind": 0,
-        "track": "Brands Hatch Grand Prix",
-        "url": null
-    },
-    {
-        "company": 1,
-        "date": "2017-06-14",
-        "desc": "Open Pitlane, experienced riders only please.\r\n noise level 105db static. \u00a3119.00",
-        "kind": 2,
-        "track": "Cadwell Park",
-        "url": "http://nolimitstrackdays.com/book/#/link?track=39&date=2017-06-14&event=38"
-    },
-    {
-        "company": 2,
-        "date": "2017-06-14",
-        "desc": "3 Groups p/h",
-        "kind": 0,
-        "track": "Cadwell Park",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/10804/"
-    },
-    {
-        "company": 1,
-        "date": "2017-06-14",
-        "desc": "GP Circuit\r\n3 groups noise level 98db drive by. \u00a3149.00\r\nRoad Bike only event.\r\nNo Tyre warmers.\r\nNo Daytime only MOTs.\r\nLimited bikes on track.",
-        "kind": 3,
-        "track": "Donington Park",
-        "url": "http://nolimitstrackdays.com/book/#/link?track=44&date=2017-06-14&event=56"
-    },
-    {
-        "company": 2,
-        "date": "2017-06-14",
-        "desc": "Road Bikes Only",
-        "kind": 3,
-        "track": "Donington Park Grand Prix",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/10806/"
-    },
-    {
-        "company": 2,
-        "date": "2017-06-15",
-        "desc": "3 Groups p/h",
-        "kind": 0,
-        "track": "Croft",
-        "url": null
-    },
-    {
-        "company": 2,
-        "date": "2017-06-15",
-        "desc": "3 Groups p/h",
-        "kind": 0,
-        "track": "Donington Park Grand Prix",
-        "url": null
-    },
-    {
-        "company": 2,
-        "date": "2017-06-15",
-        "desc": "3 Groups p/h",
-        "kind": 0,
-        "track": "Snetterton 300",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/10940/"
-    },
-    {
-        "company": 2,
-        "date": "2017-06-16",
-        "desc": "3 Groups p/h",
-        "kind": 0,
-        "track": "Croft",
-        "url": null
-    },
-    {
-        "company": 2,
-        "date": "2017-06-17",
-        "desc": "3 Groups p/h",
-        "kind": 0,
-        "track": "Anglesey International GP",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/10943/"
-    },
-    {
-        "company": 2,
-        "date": "2017-06-17",
-        "desc": "3 Groups p/h",
-        "kind": 0,
-        "track": "Snetterton 300",
-        "url": null
-    },
-    {
-        "company": 2,
-        "date": "2017-06-18",
-        "desc": "3 Groups p/h",
-        "kind": 0,
-        "track": "Anglesey International GP",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/10945/"
-    },
-    {
-        "company": 2,
-        "date": "2017-06-18",
-        "desc": "3 Groups p/h",
-        "kind": 0,
-        "track": "Snetterton 300",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/10944/"
-    },
-    {
-        "company": 2,
-        "date": "2017-06-19",
-        "desc": "3 Groups p/h",
-        "kind": 0,
-        "track": "Silverstone Grand Prix",
-        "url": null
-    },
-    {
-        "company": 2,
-        "date": "2017-06-19",
-        "desc": "Masterclass",
-        "kind": 5,
-        "track": "Silverstone Grand Prix",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/10442/"
-    },
-    {
-        "company": 2,
-        "date": "2017-06-19",
-        "desc": "3 Groups p/h",
-        "kind": 0,
-        "track": "Snetterton 300",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/10946/"
-    },
-    {
-        "company": 2,
-        "date": "2017-06-21",
-        "desc": "6 groups",
-        "kind": 0,
-        "track": "Castle Combe",
-        "url": null
-    },
-    {
-        "company": 2,
-        "date": "2017-06-21",
-        "desc": "3 Groups p/h",
-        "kind": 0,
-        "track": "Oulton Park International",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/10947/"
-    },
-    {
         "company": 1,
         "date": "2017-06-22",
         "desc": "Indy Circuit.\r\n2 GROUPS.\r\n noise level 102db static. \u00a379.00",
@@ -293,7 +37,7 @@
         "desc": "3 Groups p/h",
         "kind": 0,
         "track": "Anglesey International GP",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/10950/"
+        "url": null
     },
     {
         "company": 0,
@@ -301,7 +45,7 @@
         "desc": "Road Bike Only Track Day - with Stalker",
         "kind": 3,
         "track": "Cadwell Park",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/june/23-cp-rbo.aspx"
+        "url": "http://www.msvtrackdays.com/bike/calendar/2017/june/23-cp-rbo/"
     },
     {
         "company": 2,
@@ -317,7 +61,7 @@
         "desc": "Novice Only Track Day",
         "kind": 4,
         "track": "Snetterton 300",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/june/24-sn-n.aspx"
+        "url": "http://www.msvtrackdays.com/bike/calendar/2017/june/24-sn-n/"
     },
     {
         "company": 3,
@@ -333,7 +77,7 @@
         "desc": "BMW Track and Training day Level 1",
         "kind": 5,
         "track": "Donington Park",
-        "url": "http://www.focusedevents.com/donington-park-track-training-25-june-2017-uk-trackday-789"
+        "url": null
     },
     {
         "company": 2,
@@ -341,7 +85,7 @@
         "desc": "3 Groups p/h",
         "kind": 0,
         "track": "Snetterton 300",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/10952/"
+        "url": null
     },
     {
         "company": 0,
@@ -349,7 +93,7 @@
         "desc": "General Bike Track Day - with Shakey Byrne",
         "kind": 0,
         "track": "Brands Hatch Grand Prix",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/june/26-bhgp4.aspx"
+        "url": "http://www.msvtrackdays.com/bike/calendar/2017/june/26-bhgp4/"
     },
     {
         "company": 1,
@@ -365,7 +109,7 @@
         "desc": "3 Groups p/h",
         "kind": 0,
         "track": "Cadwell Park",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/10953/"
+        "url": null
     },
     {
         "company": 2,
@@ -373,7 +117,7 @@
         "desc": "Evening",
         "kind": 1,
         "track": "Cadwell Park",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/10954/"
+        "url": null
     },
     {
         "company": 2,
@@ -397,7 +141,7 @@
         "desc": "General Bike Track Day",
         "kind": 0,
         "track": "Oulton Park",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/june/27-op.aspx"
+        "url": "http://www.msvtrackdays.com/bike/calendar/2017/june/27-op/"
     },
     {
         "company": 3,
@@ -413,7 +157,7 @@
         "desc": "General Bike Track Day",
         "kind": 0,
         "track": "Oulton Park",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/june/28-op.aspx"
+        "url": "http://www.msvtrackdays.com/bike/calendar/2017/june/28-op/"
     },
     {
         "company": 0,
@@ -421,7 +165,7 @@
         "desc": "General Bike Track Day",
         "kind": 0,
         "track": "Snetterton 300",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/june/28-sn.aspx"
+        "url": "http://www.msvtrackdays.com/bike/calendar/2017/june/28-sn/"
     },
     {
         "company": 0,
@@ -429,7 +173,7 @@
         "desc": "General Bike Track Evening",
         "kind": 1,
         "track": "Snetterton 300",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/june/28-sn-eve.aspx"
+        "url": "http://www.msvtrackdays.com/bike/calendar/2017/june/28-sn-eve/"
     },
     {
         "company": 0,
@@ -437,7 +181,7 @@
         "desc": "General Bike Track Day",
         "kind": 0,
         "track": "Cadwell Park",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/june/29-cp.aspx"
+        "url": "http://www.msvtrackdays.com/bike/calendar/2017/june/29-cp/"
     },
     {
         "company": 2,
@@ -445,7 +189,7 @@
         "desc": "3 Groups p/h",
         "kind": 0,
         "track": "Donington Park Grand Prix",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/10957/"
+        "url": null
     },
     {
         "company": 3,
@@ -469,7 +213,7 @@
         "desc": "3 Groups p/h",
         "kind": 0,
         "track": "Mallory Park",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/10958/"
+        "url": null
     },
     {
         "company": 2,
@@ -477,7 +221,7 @@
         "desc": "3 Groups p/h",
         "kind": 0,
         "track": "Oulton Park International",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/10959/"
+        "url": null
     },
     {
         "company": 2,
@@ -501,7 +245,7 @@
         "desc": "General Bike Track Day",
         "kind": 0,
         "track": "Cadwell Park",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/july/3-cp.aspx"
+        "url": "http://www.msvtrackdays.com/bike/calendar/2017/july/3-cp/"
     },
     {
         "company": 0,
@@ -509,7 +253,7 @@
         "desc": "General Bike Track Evening",
         "kind": 1,
         "track": "Cadwell Park",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/july/3-cp-e.aspx"
+        "url": "http://www.msvtrackdays.com/bike/calendar/2017/july/3-cp-e/"
     },
     {
         "company": 2,
@@ -565,7 +309,7 @@
         "desc": "6 groups",
         "kind": 0,
         "track": "Castle Combe",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/10375/"
+        "url": null
     },
     {
         "company": 2,
@@ -597,7 +341,7 @@
         "desc": "Road Bike Only Track Day",
         "kind": 3,
         "track": "Snetterton 300",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/july/9-sn-rbo.aspx"
+        "url": "http://www.msvtrackdays.com/bike/calendar/2017/july/9-sn-rbo/"
     },
     {
         "company": 0,
@@ -605,7 +349,7 @@
         "desc": "General Bike Track Day - with Stalker",
         "kind": 0,
         "track": "Bedford Autodrome SW",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/july/10-ba.aspx"
+        "url": "http://www.msvtrackdays.com/bike/calendar/2017/july/10-ba/"
     },
     {
         "company": 0,
@@ -613,7 +357,7 @@
         "desc": "General Bike Track Day",
         "kind": 0,
         "track": "Brands Hatch Indy",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/july/10-bh.aspx"
+        "url": "http://www.msvtrackdays.com/bike/calendar/2017/july/10-bh/"
     },
     {
         "company": 0,
@@ -621,7 +365,7 @@
         "desc": "General Bike Track Evening",
         "kind": 1,
         "track": "Brands Hatch Indy",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/july/10-bh-e.aspx"
+        "url": "http://www.msvtrackdays.com/bike/calendar/2017/july/10-bh-e/"
     },
     {
         "company": 1,
@@ -634,18 +378,18 @@
     {
         "company": 2,
         "date": "2017-07-10",
-        "desc": "2 Groups p/h Evening",
-        "kind": 1,
-        "track": "Cadwell Park",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/10842/"
-    },
-    {
-        "company": 2,
-        "date": "2017-07-10",
         "desc": "3 Groups p/h",
         "kind": 0,
         "track": "Cadwell Park",
         "url": "https://www.trackdays.co.uk/book/biketrackday/10841/"
+    },
+    {
+        "company": 2,
+        "date": "2017-07-10",
+        "desc": "2 Groups p/h Evening",
+        "kind": 1,
+        "track": "Cadwell Park",
+        "url": "https://www.trackdays.co.uk/book/biketrackday/10842/"
     },
     {
         "company": 1,
@@ -669,7 +413,7 @@
         "desc": "General Bike Track Day",
         "kind": 0,
         "track": "Brands Hatch Grand Prix",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/july/11-bhgp.aspx"
+        "url": "http://www.msvtrackdays.com/bike/calendar/2017/july/11-bhgp/"
     },
     {
         "company": 1,
@@ -717,7 +461,7 @@
         "desc": "General Bike Track Day - with Stalker",
         "kind": 0,
         "track": "Oulton Park",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/july/12-op.aspx"
+        "url": "http://www.msvtrackdays.com/bike/calendar/2017/july/12-op/"
     },
     {
         "company": 2,
@@ -741,7 +485,7 @@
         "desc": "3 Groups p/h",
         "kind": 0,
         "track": "Donington Park Grand Prix",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/10850/"
+        "url": null
     },
     {
         "company": 2,
@@ -781,7 +525,7 @@
         "desc": "General Bike Track Day",
         "kind": 0,
         "track": "Cadwell Park",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/july/15cp.aspx"
+        "url": "http://www.msvtrackdays.com/bike/calendar/2017/july/15cp/"
     },
     {
         "company": 2,
@@ -805,7 +549,7 @@
         "desc": "General Bike Track Day",
         "kind": 0,
         "track": "Brands Hatch Indy",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/july/17-bh.aspx"
+        "url": "http://www.msvtrackdays.com/bike/calendar/2017/july/17-bh/"
     },
     {
         "company": 0,
@@ -813,7 +557,7 @@
         "desc": "General Bike Track Evening",
         "kind": 1,
         "track": "Brands Hatch Indy",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/july/17-bh-e.aspx"
+        "url": "http://www.msvtrackdays.com/bike/calendar/2017/july/17-bh-e/"
     },
     {
         "company": 0,
@@ -821,7 +565,7 @@
         "desc": "General Bike Track Day - with Stalker",
         "kind": 0,
         "track": "Cadwell Park",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/july/17-cp.aspx"
+        "url": "http://www.msvtrackdays.com/bike/calendar/2017/july/17-cp/"
     },
     {
         "company": 0,
@@ -829,21 +573,21 @@
         "desc": "General Bike Track Evening",
         "kind": 1,
         "track": "Cadwell Park",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/july/17-cp-e.aspx"
-    },
-    {
-        "company": 2,
-        "date": "2017-07-17",
-        "desc": "Masterclass",
-        "kind": 5,
-        "track": "Silverstone National",
-        "url": null
+        "url": "http://www.msvtrackdays.com/bike/calendar/2017/july/17-cp-e/"
     },
     {
         "company": 2,
         "date": "2017-07-17",
         "desc": "3 Groups p/h",
         "kind": 0,
+        "track": "Silverstone National",
+        "url": null
+    },
+    {
+        "company": 2,
+        "date": "2017-07-17",
+        "desc": "Masterclass",
+        "kind": 5,
         "track": "Silverstone National",
         "url": null
     },
@@ -949,7 +693,7 @@
         "desc": "General Bike Track Day",
         "kind": 0,
         "track": "Snetterton 300",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/july/22-sn.aspx"
+        "url": "http://www.msvtrackdays.com/bike/calendar/2017/july/22-sn/"
     },
     {
         "company": 2,
@@ -970,18 +714,18 @@
     {
         "company": 2,
         "date": "2017-07-24",
-        "desc": "3 Groups p/h",
-        "kind": 0,
-        "track": "Cadwell Park",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/10860/"
-    },
-    {
-        "company": 2,
-        "date": "2017-07-24",
         "desc": "2 Groups p/h Evening",
         "kind": 1,
         "track": "Cadwell Park",
         "url": "https://www.trackdays.co.uk/book/biketrackday/10861/"
+    },
+    {
+        "company": 2,
+        "date": "2017-07-24",
+        "desc": "3 Groups p/h",
+        "kind": 0,
+        "track": "Cadwell Park",
+        "url": "https://www.trackdays.co.uk/book/biketrackday/10860/"
     },
     {
         "company": 2,
@@ -1005,7 +749,7 @@
         "desc": "General Bike Track Day",
         "kind": 0,
         "track": "Brands Hatch Indy",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/july/26-bh.aspx"
+        "url": "http://www.msvtrackdays.com/bike/calendar/2017/july/26-bh/"
     },
     {
         "company": 2,
@@ -1021,7 +765,7 @@
         "desc": "General Bike Track Day",
         "kind": 0,
         "track": "Oulton Park",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/july/26-op.aspx"
+        "url": "http://www.msvtrackdays.com/bike/calendar/2017/july/26-op/"
     },
     {
         "company": 2,
@@ -1045,7 +789,7 @@
         "desc": "Road Bike Only Track Day",
         "kind": 3,
         "track": "Bedford Autodrome SW",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/july/29-ba-rbo.aspx"
+        "url": "http://www.msvtrackdays.com/bike/calendar/2017/july/29-ba-rbo/"
     },
     {
         "company": 2,
@@ -1133,7 +877,7 @@
         "desc": "General Bike Track Day",
         "kind": 0,
         "track": "Brands Hatch Indy",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/aug/2-bh.aspx"
+        "url": "http://www.msvtrackdays.com/bike/calendar/2017/aug/2-bh/"
     },
     {
         "company": 0,
@@ -1141,7 +885,7 @@
         "desc": "General Bike Track Evening",
         "kind": 1,
         "track": "Brands Hatch Indy",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/aug/2-bh-eve.aspx"
+        "url": "http://www.msvtrackdays.com/bike/calendar/2017/aug/2-bh-eve/"
     },
     {
         "company": 3,
@@ -1165,7 +909,7 @@
         "desc": "General Bike Track Day",
         "kind": 0,
         "track": "Cadwell Park",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/aug/3-cp.aspx"
+        "url": "http://www.msvtrackdays.com/bike/calendar/2017/aug/3-cp/"
     },
     {
         "company": 0,
@@ -1173,7 +917,7 @@
         "desc": "General Bike Track Evening",
         "kind": 1,
         "track": "Cadwell Park",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/aug/3-cp-e.aspx"
+        "url": "http://www.msvtrackdays.com/bike/calendar/2017/aug/3-cp-e/"
     },
     {
         "company": 2,
@@ -1205,7 +949,7 @@
         "desc": "General Bike Track Day",
         "kind": 0,
         "track": "Snetterton 300",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/aug/6-sn.aspx"
+        "url": "http://www.msvtrackdays.com/bike/calendar/2017/aug/6-sn/"
     },
     {
         "company": 1,
@@ -1285,7 +1029,7 @@
         "desc": "General Bike Track Day",
         "kind": 0,
         "track": "Oulton Park",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/aug/8-op.aspx"
+        "url": "http://www.msvtrackdays.com/bike/calendar/2017/aug/8-op/"
     },
     {
         "company": 0,
@@ -1293,7 +1037,7 @@
         "desc": "General Bike Track Day",
         "kind": 0,
         "track": "Brands Hatch Indy",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/aug/9-bh.aspx"
+        "url": "http://www.msvtrackdays.com/bike/calendar/2017/aug/9-bh/"
     },
     {
         "company": 1,
@@ -1413,7 +1157,7 @@
         "desc": "General Bike Track Day",
         "kind": 0,
         "track": "Bedford Autodrome SW",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/aug/14-ba.aspx"
+        "url": "http://www.msvtrackdays.com/bike/calendar/2017/aug/14-ba/"
     },
     {
         "company": 0,
@@ -1421,7 +1165,7 @@
         "desc": "General Bike Track Day",
         "kind": 0,
         "track": "Cadwell Park",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/aug/14-cp.aspx"
+        "url": "http://www.msvtrackdays.com/bike/calendar/2017/aug/14-cp/"
     },
     {
         "company": 0,
@@ -1429,7 +1173,7 @@
         "desc": "General Bike Track Evening",
         "kind": 1,
         "track": "Cadwell Park",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/aug/14-cp-e.aspx"
+        "url": "http://www.msvtrackdays.com/bike/calendar/2017/aug/14-cp-e/"
     },
     {
         "company": 1,
@@ -1565,7 +1309,7 @@
         "desc": "General Bike Track Day",
         "kind": 0,
         "track": "Brands Hatch Indy",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/aug/22-bh.aspx"
+        "url": "http://www.msvtrackdays.com/bike/calendar/2017/aug/22-bh/"
     },
     {
         "company": 0,
@@ -1573,7 +1317,7 @@
         "desc": "General Bike Track Evening",
         "kind": 1,
         "track": "Brands Hatch Indy",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/aug/22-bh-eve.aspx"
+        "url": "http://www.msvtrackdays.com/bike/calendar/2017/aug/22-bh-eve/"
     },
     {
         "company": 2,
@@ -1597,7 +1341,7 @@
         "desc": "General Bike Track Day",
         "kind": 0,
         "track": "Oulton Park",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/aug/22-op.aspx"
+        "url": "http://www.msvtrackdays.com/bike/calendar/2017/aug/22-op/"
     },
     {
         "company": 0,
@@ -1605,7 +1349,7 @@
         "desc": "General Bike Track Day - with Stalker",
         "kind": 0,
         "track": "Snetterton 300",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/aug/22-sn.aspx"
+        "url": "http://www.msvtrackdays.com/bike/calendar/2017/aug/22-sn/"
     },
     {
         "company": 0,
@@ -1613,7 +1357,7 @@
         "desc": "General Bike Track Evening",
         "kind": 1,
         "track": "Snetterton 300",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/aug/22-sn-e.aspx"
+        "url": "http://www.msvtrackdays.com/bike/calendar/2017/aug/22-sn-e/"
     },
     {
         "company": 2,
@@ -1693,7 +1437,7 @@
         "desc": "Novice Only Track Day - with Stalker",
         "kind": 4,
         "track": "Cadwell Park",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/aug/28-cp-n.aspx"
+        "url": "http://www.msvtrackdays.com/bike/calendar/2017/aug/28-cp-n/"
     },
     {
         "company": 2,
@@ -1781,7 +1525,7 @@
         "desc": "Novice Only Track Day",
         "kind": 4,
         "track": "Brands Hatch Indy",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/aug/31-bh-n.aspx"
+        "url": "http://www.msvtrackdays.com/bike/calendar/2017/aug/31-bh-n/"
     },
     {
         "company": 1,
@@ -1794,18 +1538,18 @@
     {
         "company": 2,
         "date": "2017-09-04",
-        "desc": "Masterclass",
-        "kind": 5,
-        "track": "Silverstone Grand Prix",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/10445/"
-    },
-    {
-        "company": 2,
-        "date": "2017-09-04",
         "desc": "3 Groups p/h",
         "kind": 0,
         "track": "Silverstone Grand Prix",
         "url": "https://www.trackdays.co.uk/book/biketrackday/10428/"
+    },
+    {
+        "company": 2,
+        "date": "2017-09-04",
+        "desc": "Masterclass",
+        "kind": 5,
+        "track": "Silverstone Grand Prix",
+        "url": "https://www.trackdays.co.uk/book/biketrackday/10445/"
     },
     {
         "company": 0,
@@ -1813,7 +1557,7 @@
         "desc": "General Bike Track Day - with Shakey Byrne",
         "kind": 0,
         "track": "Brands Hatch Grand Prix",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/sept/6-bhgp4.aspx"
+        "url": "http://www.msvtrackdays.com/bike/calendar/2017/sept/6-bhgp/"
     },
     {
         "company": 2,
@@ -1829,7 +1573,7 @@
         "desc": "General Bike Track Day",
         "kind": 0,
         "track": "Oulton Park",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/sept/6-op.aspx"
+        "url": "http://www.msvtrackdays.com/bike/calendar/2017/sept/6-op/"
     },
     {
         "company": 2,
@@ -1845,7 +1589,7 @@
         "desc": "General Bike Track Day",
         "kind": 0,
         "track": "Cadwell Park",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/sept/7-cp.aspx"
+        "url": "http://www.msvtrackdays.com/bike/calendar/2017/sept/7-cp/"
     },
     {
         "company": 1,
@@ -1877,7 +1621,7 @@
         "desc": "General Bike Track Day - with Stalker",
         "kind": 0,
         "track": "Snetterton 300",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/sept/13-sn.aspx"
+        "url": "http://www.msvtrackdays.com/bike/calendar/2017/sept/13-sn/"
     },
     {
         "company": 0,
@@ -1885,7 +1629,7 @@
         "desc": "General Bike Track Day",
         "kind": 0,
         "track": "Brands Hatch Indy",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/sept/15-bh.aspx"
+        "url": "http://www.msvtrackdays.com/bike/calendar/2017/sept/15-bh/"
     },
     {
         "company": 2,
@@ -1925,7 +1669,7 @@
         "desc": "General Bike Track Day - with Stalker",
         "kind": 0,
         "track": "Donington Park Grand Prix",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/sept/18-dp.aspx"
+        "url": "http://www.msvtrackdays.com/bike/calendar/2017/sept/18-dp/"
     },
     {
         "company": 3,
@@ -1941,7 +1685,7 @@
         "desc": "General Bike Track Day",
         "kind": 0,
         "track": "Snetterton 300",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/sept/26-sn.aspx"
+        "url": "http://www.msvtrackdays.com/bike/calendar/2017/sept/26-sn/"
     },
     {
         "company": 2,
@@ -1955,9 +1699,17 @@
         "company": 0,
         "date": "2017-09-28",
         "desc": "Open Pitlane Track Day",
-        "kind": 2,
+        "kind": 0,
         "track": "Cadwell Park",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/sept/28-cp-opl.aspx"
+        "url": "http://www.msvtrackdays.com/bike/calendar/2017/sept/28-cp/"
+    },
+    {
+        "company": 0,
+        "date": "2017-09-29",
+        "desc": "Novice Only Track Day",
+        "kind": 0,
+        "track": "Oulton Park",
+        "url": "http://www.msvtrackdays.com/bike/calendar/2017/sept/29-op/"
     },
     {
         "company": 0,
@@ -1965,7 +1717,7 @@
         "desc": "General Bike Track Day",
         "kind": 0,
         "track": "Oulton Park",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/sept/30-op.aspx"
+        "url": "http://www.msvtrackdays.com/bike/calendar/2017/sept/30-op/"
     },
     {
         "company": 2,
