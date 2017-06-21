@@ -53,7 +53,7 @@ def parse(elem):
 # Where 'sn' is the track (Snetterton 300)
 # and 'n' is a type modifier (Novice)
   url = elem.a['href']
-  match = re.search('(\d\d\d\d/.*/\d+)(.*)\.aspx', url)
+  match = re.search('(\d\d\d\d/.*/\d+)(.*)\/', url)
   if not match:
     print 'FAILED TO MATCH ', url
     return None
