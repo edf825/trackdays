@@ -1,62 +1,6 @@
 [
     {
         "company": 2,
-        "date": "2017-08-23",
-        "desc": "3 Groups p/h",
-        "kind": 0,
-        "track": "Bedford Autodrome SW",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/10915/"
-    },
-    {
-        "company": 2,
-        "date": "2017-08-23",
-        "desc": "6 groups",
-        "kind": 0,
-        "track": "Castle Combe",
-        "url": null
-    },
-    {
-        "company": 2,
-        "date": "2017-08-24",
-        "desc": "4 Groups p/h",
-        "kind": 0,
-        "track": "Brands Hatch Grand Prix",
-        "url": null
-    },
-    {
-        "company": 2,
-        "date": "2017-08-24",
-        "desc": "3 Groups p/h",
-        "kind": 0,
-        "track": "Croft",
-        "url": null
-    },
-    {
-        "company": 2,
-        "date": "2017-08-25",
-        "desc": "3 Groups p/h",
-        "kind": 0,
-        "track": "Anglesey International GP",
-        "url": null
-    },
-    {
-        "company": 2,
-        "date": "2017-08-26",
-        "desc": "3 Groups p/h",
-        "kind": 0,
-        "track": "Mallory Park",
-        "url": null
-    },
-    {
-        "company": 2,
-        "date": "2017-08-26",
-        "desc": "3 Groups p/h",
-        "kind": 0,
-        "track": "Pembrey",
-        "url": null
-    },
-    {
-        "company": 2,
         "date": "2017-08-27",
         "desc": "3 Groups p/h",
         "kind": 0,
@@ -69,7 +13,7 @@
         "desc": "3 Groups p/h",
         "kind": 0,
         "track": "Pembrey New Layout",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/10592/"
+        "url": null
     },
     {
         "company": 0,
@@ -124,8 +68,8 @@
         "date": "2017-08-29",
         "desc": "Donington Park Grand Prix Circuit 108 db day",
         "kind": 0,
-        "track": "Donington Park 108db with WSB Champion Neil Hodgson",
-        "url": "http://www.focusedevents.com/donington-park-108db-with-wsb-champion-neil-hodgson-29-august-2017-uk-trackday-773"
+        "track": "Donington Park with WSB Champion Neil Hodgson",
+        "url": "http://www.focusedevents.com/donington-park-with-wsb-champion-neil-hodgson-29-august-2017-uk-trackday-773"
     },
     {
         "company": 2,
@@ -333,7 +277,7 @@
         "desc": "3 Groups p/h",
         "kind": 0,
         "track": "Cadwell Park",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/11028/"
+        "url": null
     },
     {
         "company": 1,
