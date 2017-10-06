@@ -1,267 +1,19 @@
 [
     {
         "company": 2,
-        "date": "2017-09-17",
-        "desc": "3 Groups p/h",
-        "kind": 0,
-        "track": "Anglesey International GP",
-        "url": null
-    },
-    {
-        "company": 2,
-        "date": "2017-09-17",
-        "desc": "3 Groups p/h",
-        "kind": 0,
-        "track": "Pembrey",
-        "url": null
-    },
-    {
-        "company": 0,
-        "date": "2017-09-18",
-        "desc": "General Bike Track Day",
-        "kind": 0,
-        "track": "Donington Park Grand Prix",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/sept/18-dp/"
-    },
-    {
-        "company": 2,
-        "date": "2017-09-18",
-        "desc": "3 Groups p/h",
-        "kind": 0,
-        "track": "Snetterton 300",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/11047/"
-    },
-    {
-        "company": 2,
-        "date": "2017-09-19",
-        "desc": "4 Groups p/h",
-        "kind": 0,
-        "track": "Brands Hatch Indy",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/11048/"
-    },
-    {
-        "company": 2,
-        "date": "2017-09-19",
-        "desc": "3 Groups p/h",
-        "kind": 0,
-        "track": "Donington Park Grand Prix",
-        "url": null
-    },
-    {
-        "company": 3,
-        "date": "2017-09-20",
-        "desc": "The Hel Performance / Maria Costello - WOAM group - 98db",
-        "kind": 0,
-        "track": "Donington Park",
-        "url": "http://www.focusedevents.com/donington-park-20-september-2017-uk-trackday-765"
-    },
-    {
-        "company": 3,
-        "date": "2017-09-20",
-        "desc": "Donington Park Grand Prix Circuit 98 db day 2 groups and a Ladies group",
-        "kind": 0,
-        "track": "Donington Park with WSB Champion Neil Hodgson",
-        "url": "http://www.focusedevents.com/donington-park-with-wsb-champion-neil-hodgson-20-september-2017-uk-trackday-830"
-    },
-    {
-        "company": 2,
-        "date": "2017-09-20",
-        "desc": "3 Groups p/h",
-        "kind": 0,
-        "track": "Oulton Park International",
-        "url": null
-    },
-    {
-        "company": 2,
-        "date": "2017-09-21",
-        "desc": "4 Groups p/h",
-        "kind": 0,
-        "track": "Brands Hatch Grand Prix",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/11050/"
-    },
-    {
-        "company": 0,
-        "date": "2017-09-25",
-        "desc": "General Bike Track Day",
-        "kind": 0,
-        "track": "Bedford Autodrome SW",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/sept/25-ba/"
-    },
-    {
-        "company": 2,
-        "date": "2017-09-25",
+        "date": "2017-10-07",
         "desc": "3 Groups p/h",
         "kind": 0,
         "track": "Cadwell Park",
         "url": null
-    },
-    {
-        "company": 2,
-        "date": "2017-09-26",
-        "desc": "4 Groups p/h",
-        "kind": 0,
-        "track": "Brands Hatch Indy",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/11053/"
-    },
-    {
-        "company": 2,
-        "date": "2017-09-26",
-        "desc": "3 Groups p/h",
-        "kind": 0,
-        "track": "Donington Park Grand Prix",
-        "url": null
-    },
-    {
-        "company": 0,
-        "date": "2017-09-26",
-        "desc": "General Bike Track Day",
-        "kind": 0,
-        "track": "Snetterton 300",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/sept/26-sn/"
-    },
-    {
-        "company": 2,
-        "date": "2017-09-27",
-        "desc": "4 Groups p/h",
-        "kind": 0,
-        "track": "Castle Combe",
-        "url": null
-    },
-    {
-        "company": 0,
-        "date": "2017-09-28",
-        "desc": "Open Pitlane Track Day",
-        "kind": 0,
-        "track": "Cadwell Park",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/sept/28-cp/"
-    },
-    {
-        "company": 2,
-        "date": "2017-09-28",
-        "desc": "Open Pitlane",
-        "kind": 2,
-        "track": "Cadwell Park",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/11140/"
-    },
-    {
-        "company": 2,
-        "date": "2017-09-28",
-        "desc": "3 Groups p/h",
-        "kind": 0,
-        "track": "Silverstone Grand Prix",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/11055/"
-    },
-    {
-        "company": 2,
-        "date": "2017-09-29",
-        "desc": "3 Groups p/h",
-        "kind": 0,
-        "track": "Mallory Park",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/11056/"
-    },
-    {
-        "company": 0,
-        "date": "2017-09-29",
-        "desc": "Novice Only Track Day",
-        "kind": 0,
-        "track": "Oulton Park",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/sept/29-op/"
-    },
-    {
-        "company": 0,
-        "date": "2017-09-30",
-        "desc": "General Bike Track Day",
-        "kind": 0,
-        "track": "Oulton Park",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/sept/30-op/"
-    },
-    {
-        "company": 2,
-        "date": "2017-10-01",
-        "desc": "3 Groups p/h",
-        "kind": 0,
-        "track": "Mallory Park",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/11035/"
-    },
-    {
-        "company": 2,
-        "date": "2017-10-02",
-        "desc": "3 Groups p/h",
-        "kind": 0,
-        "track": "Cadwell Park",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/11036/"
-    },
-    {
-        "company": 2,
-        "date": "2017-10-03",
-        "desc": "4 Groups p/h",
-        "kind": 0,
-        "track": "Brands Hatch Indy",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/11038/"
-    },
-    {
-        "company": 2,
-        "date": "2017-10-03",
-        "desc": "3 Groups p/h",
-        "kind": 0,
-        "track": "Cadwell Park",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/11037/"
-    },
-    {
-        "company": 2,
-        "date": "2017-10-03",
-        "desc": "3 Groups p/h",
-        "kind": 0,
-        "track": "Silverstone Grand Prix",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/11133/"
-    },
-    {
-        "company": 2,
-        "date": "2017-10-04",
-        "desc": "3 Groups p/h",
-        "kind": 0,
-        "track": "Oulton Park International",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/11039/"
-    },
-    {
-        "company": 2,
-        "date": "2017-10-05",
-        "desc": "3 Groups p/h",
-        "kind": 0,
-        "track": "Donington Park Grand Prix",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/11040/"
-    },
-    {
-        "company": 0,
-        "date": "2017-10-05",
-        "desc": "General Bike Track Day",
-        "kind": 0,
-        "track": "Snetterton 300",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2017/oct/5-sn/"
-    },
-    {
-        "company": 2,
-        "date": "2017-10-05",
-        "desc": "3 Groups p/h",
-        "kind": 0,
-        "track": "Snetterton 300",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/11141/"
-    },
-    {
-        "company": 2,
-        "date": "2017-10-06",
-        "desc": "3 Groups p/h",
-        "kind": 0,
-        "track": "Mallory Park",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/11041/"
     },
     {
         "company": 2,
         "date": "2017-10-07",
         "desc": "3 Groups p/h",
         "kind": 0,
-        "track": "Cadwell Park",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/11057/"
+        "track": "Pembrey",
+        "url": null
     },
     {
         "company": 2,
@@ -269,7 +21,15 @@
         "desc": "3 Groups p/h",
         "kind": 0,
         "track": "Cadwell Park",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/11058/"
+        "url": null
+    },
+    {
+        "company": 2,
+        "date": "2017-10-08",
+        "desc": "3 Groups p/h",
+        "kind": 0,
+        "track": "Pembrey",
+        "url": "https://www.trackdays.co.uk/book/biketrackday/10598/"
     },
     {
         "company": 2,
@@ -293,7 +53,7 @@
         "desc": "6 groups",
         "kind": 0,
         "track": "Castle Combe",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/10380/"
+        "url": null
     },
     {
         "company": 1,
@@ -466,7 +226,7 @@
     {
         "company": 0,
         "date": "2017-11-05",
-        "desc": "Open Pit Lane Track Day",
+        "desc": "Open Pit Lane Track Day - With Stalker",
         "kind": 2,
         "track": "Cadwell Park",
         "url": "http://www.msvtrackdays.com/bike/calendar/2017/nov/5-cp-opl/"
@@ -482,7 +242,7 @@
     {
         "company": 0,
         "date": "2017-11-28",
-        "desc": "Open Pit Lane Track Day",
+        "desc": "Open Pit Lane Track Day - With Stalker",
         "kind": 2,
         "track": "Oulton Park",
         "url": "http://www.msvtrackdays.com/bike/calendar/2017/nov/28-op-opl/"
@@ -498,7 +258,7 @@
     {
         "company": 0,
         "date": "2017-12-08",
-        "desc": "Open Pit Lane Track Day",
+        "desc": "Open Pit Lane Track Day - With Stalker",
         "kind": 2,
         "track": "Brands Hatch Indy",
         "url": "http://www.msvtrackdays.com/bike/calendar/2017/dec/8-bh-opl/"
