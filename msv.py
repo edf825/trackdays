@@ -21,18 +21,17 @@ def get_track(meta):
     return 'Bedford Autodrome SW'
   return None
 
-def modify(event, meta):
+def get_kind(meta):
   if meta == 'n':
-    event['kind'] = Kind.NOVICE
+    return Kind.NOVICE
   elif meta == 'e':
-    event['kind'] = Kind.EVENING
+    return Kind.EVENING
   elif meta == 'eve':
-    event['kind'] = Kind.EVENING
+    return Kind.EVENING
   elif meta == 'opl':
-    event['kind'] = Kind.OPL
+    return Kind.OPL
   elif meta == 'rbo':
-    event['kind'] = Kind.RBO
-# *shrug*
+    return Kind.RBO
   elif meta == 'q':
     pass
   elif meta == 'bsb':
@@ -40,9 +39,7 @@ def modify(event, meta):
   elif meta == 'am':
     pass
   else:
-    return False
-
-  return True
+    return None
 
 def parse(elem):
   if not elem.a:
@@ -62,25 +59,31 @@ def parse(elem):
   meta = match.group(2).strip('-').split('-')
   desc = elem.a.parent.find_previous('td').contents[0]
 
-# First segment is always the track
-  track = get_track(meta[0])
-  if not track:
-    raise Exception('Failed to resolve track ' + meta[0])
-
   event = {
     'company': Company.MSV,
     'date': date,
-    'track': track,
+    'track': None,
     'kind': Kind.NORMAL,
     'desc': desc,
     'url': 'http://www.msvtrackdays.com' + url
   }
 
-  for m in meta[1:]:
-    if not modify(event, m):
-# And by `unsupported', I mostly mean `I'm not interested in this'.
-      print 'Metadata unsupported: ' + m
-      return None
+  for m in meta:
+    track = get_track(m.strip())
+    kind = get_kind(m.strip())
+
+    if track:
+      event['track'] = track
+      continue
+    if kind:
+      event['kind'] = kind
+      continue
+    print 'Metadata unsupported: {!r}; url {}'.format(m, url)
+    return None
+
+  if not event['track']:
+    print 'No track for url ' + url
+    return None
 
   return event
 
