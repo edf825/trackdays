@@ -34,4 +34,4 @@ for day in days:
   filtered_days.append(day)
 
 with open('docs/trackdays.json', 'w') as fd:
-  fd.write(json.dumps(days, sort_keys=True, indent=4, separators=(',', ': ')))
+  fd.write(json.dumps(filtered_days, sort_keys=True, indent=4, separators=(',', ': ')))
