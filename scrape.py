@@ -1,4 +1,5 @@
 import json
+from pprint import pprint
 
 import focused
 import msv
@@ -17,8 +18,20 @@ def jsonify(day):
   day['company'] = int(day['company'])
   return day
 
+def is_eq(a, b):
+  track_len = min(len(a['track'].split(' ')), len(b['track'].split(' ')))
+  a_track = a['track'][0:track_len]
+  b_track = b['track'][0:track_len]
+  return a['date'] == b['date'] and a['kind'] == b['kind'] and a_track == b_track
+
 days = map(jsonify, days)
-days = sorted(days, key=lambda x: x['date'] + x['track'])
+days = sorted(days, key=lambda x: (x['date'], x['kind'], x['track'], x['company']))
+
+filtered_days = []
+for day in days:
+  if filtered_days and is_eq(filtered_days[-1], day):
+    continue
+  filtered_days.append(day)
 
 with open('docs/trackdays.json', 'w') as fd:
   fd.write(json.dumps(days, sort_keys=True, indent=4, separators=(',', ': ')))

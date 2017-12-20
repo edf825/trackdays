@@ -17,8 +17,8 @@ class Kind(IntEnum):
 class Company(IntEnum):
   MSV = 0
   NO_LIMITS = 1
-  TRACKDAYS = 2
-  FOCUSED = 3
+  FOCUSED = 2
+  TRACKDAYS = 3
 # All from uktrackdays -- a subset of trackdays.co.uk.
 # CASTLE_COMBE = 4
 # SILVERSTONE = 5
