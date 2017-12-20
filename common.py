@@ -7,12 +7,12 @@ import sys
 DEBUG = False
 
 class Kind(IntEnum):
-  NORMAL = 0
-  EVENING = 1
-  OPL = 2
-  RBO = 3
-  NOVICE = 4
-  TRAINING = 5
+  NORMAL = 1
+  EVENING = 2
+  OPL = 3
+  RBO = 4
+  NOVICE = 5
+  TRAINING = 6
 
 class Company(IntEnum):
   MSV = 0

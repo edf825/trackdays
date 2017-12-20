@@ -17,11 +17,13 @@ def toKind(kind):
 def parse(elem):
   url = elem.a['href']
   date = re.search('date=([0-9\-]+)', url).group(1)
-  track = elem.h3.contents[0].strip()
-  desc = elem.find_next('span').contents[0].strip()
-  kind = toKind(re.search('event=(\d+)', url).group(1))
+  track = elem.find('h1').contents[0].strip()
+  desc = elem.find('p').contents[0].strip()
+  kind_id = re.search('event=(\d+)', url).group(1).strip()
+  kind = toKind(kind_id)
 
   if not kind:
+    print "couldn't get kind from {!r}; kind id = {!r}".format(url, kind_id)
     return None
 
   return {
@@ -36,7 +38,7 @@ def parse(elem):
 def scrape():
   soup = fetch_soup('nolimits.html',
                     'https://nolimitstrackdays.com/events-list.html')
-  events = map(parse, soup.find_all(class_='event'))
+  events = map(parse, soup.find_all(class_='event-block'))
   return filter(bool, events)
 
 if __name__ == '__main__':
