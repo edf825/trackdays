@@ -33,7 +33,7 @@ def get_kind(meta):
   elif meta == 'rbo':
     return Kind.RBO
   elif meta == 'q':
-    pass
+    return Kind.NORMAL
   elif meta == 'bsb':
     pass
   elif meta == 'am':
