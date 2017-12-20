@@ -8,6 +8,8 @@ def toKind(desc):
   lower = desc.lower()
   if 'evening' in lower:
     return Kind.EVENING
+  elif 'novice' in lower:
+    return Kind.NOVICE
   elif 'masterclass' in lower:
     return Kind.TRAINING
   elif 'open pitlane' in lower:
