@@ -24,6 +24,8 @@ def get_track(meta):
 def get_kind(meta):
   if meta == 'n':
     return Kind.NOVICE
+  elif meta == 'nov':
+    return Kind.NOVICE
   elif meta == 'e':
     return Kind.EVENING
   elif meta == 'eve':
@@ -33,6 +35,10 @@ def get_kind(meta):
   elif meta == 'rbo':
     return Kind.RBO
   elif meta == 'q':
+    return Kind.NORMAL
+  elif meta == '3gp':
+    return Kind.NORMAL
+  elif meta == '4grp':
     return Kind.NORMAL
   elif meta == 'bsb':
     pass
