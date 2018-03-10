@@ -1,51 +1,11 @@
 [
     {
-        "company": 0,
-        "date": "2018-03-05",
-        "desc": "General Bike Track Day",
-        "kind": 1,
-        "track": "Brands Hatch Indy",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2018/march/5-bh/"
-    },
-    {
-        "company": 1,
-        "date": "2018-03-09",
-        "desc": "Standard Track Day",
-        "kind": 1,
-        "track": "Mallory Park",
-        "url": "http://nolimitstrackdays.com/book/#/link?track=659&date=2018-03-09&event=22"
-    },
-    {
-        "company": 3,
-        "date": "2018-03-10",
-        "desc": "3 Groups p/h",
-        "kind": 1,
-        "track": "Pembrey National",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/11488/"
-    },
-    {
-        "company": 0,
-        "date": "2018-03-10",
-        "desc": "General Bike Track Day",
-        "kind": 1,
-        "track": "Snetterton 300",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2018/march/10-sn/"
-    },
-    {
         "company": 1,
         "date": "2018-03-11",
         "desc": "Standard Track Day",
         "kind": 1,
         "track": "Cadwell Park",
         "url": "http://nolimitstrackdays.com/book/#/link?track=39&date=2018-03-11&event=22"
-    },
-    {
-        "company": 3,
-        "date": "2018-03-11",
-        "desc": "3 Groups p/h",
-        "kind": 1,
-        "track": "Pembrey Clubmans",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/11489/"
     },
     {
         "company": 1,
@@ -1282,6 +1242,14 @@
     {
         "company": 3,
         "date": "2018-06-11",
+        "desc": "Open Pitlane",
+        "kind": 3,
+        "track": "Cadwell Park",
+        "url": "https://www.trackdays.co.uk/book/biketrackday/11866/"
+    },
+    {
+        "company": 3,
+        "date": "2018-06-11",
         "desc": "Masterclass",
         "kind": 6,
         "track": "Silverstone National",
@@ -1382,14 +1350,6 @@
         "kind": 1,
         "track": "Pembrey National",
         "url": "https://www.trackdays.co.uk/book/biketrackday/11497/"
-    },
-    {
-        "company": 3,
-        "date": "2018-06-17",
-        "desc": "3 Groups p/h",
-        "kind": 1,
-        "track": "Anglesey International GP",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/11617/"
     },
     {
         "company": 3,
@@ -1980,14 +1940,6 @@
         "date": "2018-07-18",
         "desc": "Standard Track Day",
         "kind": 1,
-        "track": "Brands Hatch Indy",
-        "url": "http://nolimitstrackdays.com/book/#/link?track=8034&date=2018-07-18&event=22"
-    },
-    {
-        "company": 1,
-        "date": "2018-07-18",
-        "desc": "Standard Track Day",
-        "kind": 1,
         "track": "Cadwell Park",
         "url": "http://nolimitstrackdays.com/book/#/link?track=39&date=2018-07-18&event=22"
     },
@@ -2014,14 +1966,6 @@
         "kind": 1,
         "track": "Silverstone - Moto GP",
         "url": "http://www.focusedevents.com/book-01?ref=c8421a74ec8b5ebc454a9b44f5ec68a84fa8b1b53cb486cd7486712f430eee45"
-    },
-    {
-        "company": 1,
-        "date": "2018-07-18",
-        "desc": "Evening Track Day",
-        "kind": 2,
-        "track": "Brands Hatch Indy",
-        "url": "http://nolimitstrackdays.com/book/#/link?track=8034&date=2018-07-18&event=21"
     },
     {
         "company": 3,
