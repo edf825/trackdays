@@ -1,62 +1,6 @@
 [
     {
         "company": 1,
-        "date": "2018-03-30",
-        "desc": "Standard Track Day",
-        "kind": 1,
-        "track": "Anglesey International",
-        "url": "http://nolimitstrackdays.com/book/#/link?track=8035&date=2018-03-30&event=22"
-    },
-    {
-        "company": 1,
-        "date": "2018-03-30",
-        "desc": "Standard Track Day",
-        "kind": 1,
-        "track": "Cadwell Park",
-        "url": "http://nolimitstrackdays.com/book/#/link?track=39&date=2018-03-30&event=22"
-    },
-    {
-        "company": 1,
-        "date": "2018-03-30",
-        "desc": "Standard Track Day",
-        "kind": 1,
-        "track": "Rockingham International",
-        "url": "http://nolimitstrackdays.com/book/#/link?track=8030&date=2018-03-30&event=22"
-    },
-    {
-        "company": 1,
-        "date": "2018-03-31",
-        "desc": "Standard Track Day",
-        "kind": 1,
-        "track": "Anglesey International",
-        "url": "http://nolimitstrackdays.com/book/#/link?track=8035&date=2018-03-31&event=22"
-    },
-    {
-        "company": 0,
-        "date": "2018-03-31",
-        "desc": "General Bike Track Day",
-        "kind": 1,
-        "track": "Cadwell Park",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2018/march/31-cp/"
-    },
-    {
-        "company": 1,
-        "date": "2018-03-31",
-        "desc": "Standard Track Day",
-        "kind": 1,
-        "track": "Mallory Park",
-        "url": "http://nolimitstrackdays.com/book/#/link?track=659&date=2018-03-31&event=22"
-    },
-    {
-        "company": 1,
-        "date": "2018-03-31",
-        "desc": "Standard Track Day",
-        "kind": 1,
-        "track": "Rockingham International",
-        "url": "http://nolimitstrackdays.com/book/#/link?track=8030&date=2018-03-31&event=22"
-    },
-    {
-        "company": 1,
         "date": "2018-04-02",
         "desc": "Standard Track Day",
         "kind": 1,
