@@ -1,62 +1,6 @@
 [
     {
         "company": 1,
-        "date": "2018-04-02",
-        "desc": "Standard Track Day",
-        "kind": 1,
-        "track": "Snetterton",
-        "url": "http://nolimitstrackdays.com/book/#/link?track=2225&date=2018-04-02&event=22"
-    },
-    {
-        "company": 0,
-        "date": "2018-04-03",
-        "desc": "3 Group Bike Track Day - with Leon Haslam",
-        "kind": 1,
-        "track": "Donington Park Grand Prix",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2018/apr/3-dp-q/"
-    },
-    {
-        "company": 1,
-        "date": "2018-04-04",
-        "desc": "Standard Track Day",
-        "kind": 1,
-        "track": "Oulton Park",
-        "url": "http://nolimitstrackdays.com/book/#/link?track=660&date=2018-04-04&event=22"
-    },
-    {
-        "company": 0,
-        "date": "2018-04-05",
-        "desc": "General Bike Track Day - with Chris Walker",
-        "kind": 1,
-        "track": "Cadwell Park",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2018/apr/5-cp/"
-    },
-    {
-        "company": 1,
-        "date": "2018-04-06",
-        "desc": "Standard Track Day",
-        "kind": 1,
-        "track": "Mallory Park",
-        "url": "http://nolimitstrackdays.com/book/#/link?track=659&date=2018-04-06&event=22"
-    },
-    {
-        "company": 3,
-        "date": "2018-04-07",
-        "desc": "3 Groups p/h",
-        "kind": 1,
-        "track": "Pembrey National",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/11491/"
-    },
-    {
-        "company": 3,
-        "date": "2018-04-08",
-        "desc": "3 Groups p/h",
-        "kind": 1,
-        "track": "Pembrey Clubmans",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/11492/"
-    },
-    {
-        "company": 1,
         "date": "2018-04-08",
         "desc": "Standard Track Day",
         "kind": 1,
@@ -117,7 +61,7 @@
         "desc": "Open Pitlane",
         "kind": 3,
         "track": "Cadwell Park",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/11426/"
+        "url": null
     },
     {
         "company": 1,
@@ -150,6 +94,14 @@
         "kind": 1,
         "track": "Silverstone Grand Prix",
         "url": "https://www.trackdays.co.uk/book/biketrackday/11235/"
+    },
+    {
+        "company": 3,
+        "date": "2018-04-15",
+        "desc": "Masterclass",
+        "kind": 6,
+        "track": "Silverstone Grand Prix",
+        "url": "https://www.trackdays.co.uk/book/biketrackday/11886/"
     },
     {
         "company": 1,
@@ -494,6 +446,14 @@
         "kind": 1,
         "track": "Rockingham International",
         "url": "http://nolimitstrackdays.com/book/#/link?track=8030&date=2018-05-06&event=22"
+    },
+    {
+        "company": 0,
+        "date": "2018-05-07",
+        "desc": "General Bike Track Day - Bank Holiday",
+        "kind": 1,
+        "track": "Bedford Autodrome SW",
+        "url": "http://www.msvtrackdays.com/bike/calendar/2018/may/7-ba/"
     },
     {
         "company": 3,
@@ -977,14 +937,6 @@
     },
     {
         "company": 0,
-        "date": "2018-06-10",
-        "desc": "General Bike Track Day",
-        "kind": 1,
-        "track": "Cadwell Park",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2018/june/10-cp/"
-    },
-    {
-        "company": 0,
         "date": "2018-06-11",
         "desc": "General Bike Track Day",
         "kind": 1,
@@ -1250,7 +1202,7 @@
     {
         "company": 0,
         "date": "2018-06-25",
-        "desc": "General Track Day",
+        "desc": "General Track Day - with Shakey Byrne",
         "kind": 1,
         "track": "Brands Hatch Grand Prix",
         "url": "http://www.msvtrackdays.com/bike/calendar/2018/june/25-bhgp-4grp/"
@@ -1530,7 +1482,7 @@
     {
         "company": 0,
         "date": "2018-07-09",
-        "desc": "General Bike Track Day",
+        "desc": "General Bike Track Day - with Shakey Byrne",
         "kind": 1,
         "track": "Brands Hatch Indy",
         "url": "http://www.msvtrackdays.com/bike/calendar/2018/july/9-bh/"
@@ -1709,7 +1661,7 @@
         "desc": "3 Groups p/h",
         "kind": 1,
         "track": "Silverstone Grand Prix",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/11887/"
+        "url": "https://www.trackdays.co.uk/book/biketrackday/11240/"
     },
     {
         "company": 1,
@@ -1725,7 +1677,7 @@
         "desc": "Masterclass",
         "kind": 6,
         "track": "Silverstone Grand Prix",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/11888/"
+        "url": "https://www.trackdays.co.uk/book/biketrackday/11250/"
     },
     {
         "company": 1,
@@ -1778,10 +1730,10 @@
     {
         "company": 3,
         "date": "2018-07-20",
-        "desc": "Pre 95 Classic Bikes 2 Day",
+        "desc": "Pre 95 Classic Bikes",
         "kind": 1,
         "track": "Castle Combe",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/11786/"
+        "url": "https://www.trackdays.co.uk/book/biketrackday/11784/"
     },
     {
         "company": 1,
