@@ -47,6 +47,13 @@ def get_kind(meta):
   else:
     return None
 
+def is_int(string):
+  try:
+    int(string)
+    return True
+  except ValueError:
+    return False
+
 def parse(elem):
   if not elem.a:
     return None
@@ -77,6 +84,10 @@ def parse(elem):
   for m in meta:
     track = get_track(m.strip())
     kind = get_kind(m.strip())
+
+    if is_int(m):
+      print 'Ignoring number in metadata: {!r}; url {}'.format(m, url)
+      continue
 
     if track:
       event['track'] = track
