@@ -1,110 +1,6 @@
 [
     {
         "company": 1,
-        "date": "2018-04-28",
-        "desc": "Standard Track Day",
-        "kind": 1,
-        "track": "Three Sisters",
-        "url": "http://nolimitstrackdays.com/book/#/link?track=12010&date=2018-04-28&event=22"
-    },
-    {
-        "company": 3,
-        "date": "2018-04-29",
-        "desc": "3 Groups p/h",
-        "kind": 1,
-        "track": "Pembrey Clubmans",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/11494/"
-    },
-    {
-        "company": 1,
-        "date": "2018-04-30",
-        "desc": "Standard Track Day",
-        "kind": 1,
-        "track": "Cadwell Park",
-        "url": "http://nolimitstrackdays.com/book/#/link?track=39&date=2018-04-30&event=22"
-    },
-    {
-        "company": 1,
-        "date": "2018-05-01",
-        "desc": "Standard Track Day",
-        "kind": 1,
-        "track": "Brands Hatch Grand Prix",
-        "url": "http://nolimitstrackdays.com/book/#/link?track=8033&date=2018-05-01&event=22"
-    },
-    {
-        "company": 1,
-        "date": "2018-05-01",
-        "desc": "Standard Track Day",
-        "kind": 1,
-        "track": "Snetterton",
-        "url": "http://nolimitstrackdays.com/book/#/link?track=2225&date=2018-05-01&event=22"
-    },
-    {
-        "company": 3,
-        "date": "2018-05-02",
-        "desc": "Sessions",
-        "kind": 1,
-        "track": "Castle Combe",
-        "url": null
-    },
-    {
-        "company": 2,
-        "date": "2018-05-02",
-        "desc": "Donington Park Grand Prix Circuit 108 db day as a Circuit Saver (no curves)",
-        "kind": 1,
-        "track": "Donington Park",
-        "url": "http://www.focusedevents.com/donington-park-02-may-2018-uk-trackday-905"
-    },
-    {
-        "company": 1,
-        "date": "2018-05-02",
-        "desc": "Standard Track Day",
-        "kind": 1,
-        "track": "Oulton Park",
-        "url": "http://nolimitstrackdays.com/book/#/link?track=660&date=2018-05-02&event=22"
-    },
-    {
-        "company": 0,
-        "date": "2018-05-02",
-        "desc": "General Bike Track Evening",
-        "kind": 2,
-        "track": "Brands Hatch Indy",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2018/may/2-bh-e/"
-    },
-    {
-        "company": 0,
-        "date": "2018-05-02",
-        "desc": "Road Bike Only Track Day",
-        "kind": 4,
-        "track": "Brands Hatch Indy",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2018/may/2-bh-rbo/"
-    },
-    {
-        "company": 1,
-        "date": "2018-05-04",
-        "desc": "Standard Track Day",
-        "kind": 1,
-        "track": "Mallory Park",
-        "url": "http://nolimitstrackdays.com/book/#/link?track=659&date=2018-05-04&event=22"
-    },
-    {
-        "company": 0,
-        "date": "2018-05-04",
-        "desc": "Novice Only Track Day - with Stalker",
-        "kind": 5,
-        "track": "Cadwell Park",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2018/may/4-cp-n/"
-    },
-    {
-        "company": 0,
-        "date": "2018-05-05",
-        "desc": "General Bike Track Day",
-        "kind": 1,
-        "track": "Cadwell Park",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2018/may/5-cp/"
-    },
-    {
-        "company": 1,
         "date": "2018-05-05",
         "desc": "Standard Track Day",
         "kind": 1,
@@ -118,14 +14,6 @@
         "kind": 1,
         "track": "Rockingham International",
         "url": "http://nolimitstrackdays.com/book/#/link?track=8030&date=2018-05-05&event=22"
-    },
-    {
-        "company": 0,
-        "date": "2018-05-05",
-        "desc": "General Bike Track Day",
-        "kind": 1,
-        "track": "Snetterton 300",
-        "url": "http://www.msvtrackdays.com/bike/calendar/2018/may/5-sn/"
     },
     {
         "company": 1,
@@ -149,7 +37,7 @@
         "desc": "Ladies Tuition Day",
         "kind": 1,
         "track": "Silverstone Stowe",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/11376/"
+        "url": null
     },
     {
         "company": 1,
@@ -234,7 +122,7 @@
     {
         "company": 2,
         "date": "2018-05-15",
-        "desc": "Silverstone MotoGP Circuit Saver !!",
+        "desc": "Silverstone MotoGP Circuit Saver!!",
         "kind": 1,
         "track": "Silverstone - Moto GP",
         "url": "http://www.focusedevents.com/silverstone-moto-gp-15-may-2018-uk-trackday-906"
@@ -253,7 +141,7 @@
         "desc": "Sessions",
         "kind": 1,
         "track": "Castle Combe",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/11223/"
+        "url": null
     },
     {
         "company": 0,
@@ -570,7 +458,7 @@
     {
         "company": 2,
         "date": "2018-06-04",
-        "desc": "Donington Park 98db day on a Monday worth 1 Curve !",
+        "desc": "Donington Park 98db day on a Monday worth 1 Curve!",
         "kind": 1,
         "track": "Donington Park",
         "url": "http://www.focusedevents.com/book-01?ref=a3304783a9d2fa3d1365cf82be38143013d644477e837d17d4f1465a0a282230"
@@ -618,7 +506,7 @@
     {
         "company": 2,
         "date": "2018-06-06",
-        "desc": "Silverstone MotoGP worth 2 curves !",
+        "desc": "Silverstone MotoGP worth 2 curves!",
         "kind": 1,
         "track": "Silverstone - Moto GP",
         "url": "http://www.focusedevents.com/book-01?ref=2207322a3f5fb785e357f6f89458ea7a2db76865c105272b177839ef1f592a4e"
@@ -789,7 +677,7 @@
         "desc": "Pre 95 Classic Bikes",
         "kind": 1,
         "track": "Cadwell Park",
-        "url": "https://www.trackdays.co.uk/book/biketrackday/11781/"
+        "url": null
     },
     {
         "company": 1,
@@ -850,7 +738,7 @@
     {
         "company": 2,
         "date": "2018-06-19",
-        "desc": "Donington Park Grand Prix Circuit 108 db day worth 2 curves !",
+        "desc": "Donington Park Grand Prix Circuit 108 db day worth 2 Curves!",
         "kind": 1,
         "track": "Donington Park",
         "url": "http://www.focusedevents.com/book-01?ref=b8db2074e1f1a799167a6181d2cc45e0fcc7cfd9aa9d354b84fb717c98be794b"
@@ -922,7 +810,7 @@
     {
         "company": 2,
         "date": "2018-06-25",
-        "desc": "Donington Park 98db day on a Monday worth 1 Curve !",
+        "desc": "Donington Park 98db day on a Monday worth 1 Curve! with Hodgy!",
         "kind": 1,
         "track": "Donington Park",
         "url": "http://www.focusedevents.com/book-01?ref=45c280b2e378052d5b8f6f652b336e244674481fed4df51e015c7f6a66671fc0"
@@ -1088,6 +976,14 @@
         "url": "http://nolimitstrackdays.com/book/#/link?track=39&date=2018-07-02&event=21"
     },
     {
+        "company": 0,
+        "date": "2018-07-03",
+        "desc": "3 Groups - General Track Day - with Shakey",
+        "kind": 1,
+        "track": "Brands Hatch Grand Prix",
+        "url": "http://www.msvtrackdays.com/bike/calendar/2018/july/3-bhgp-3/"
+    },
+    {
         "company": 1,
         "date": "2018-07-03",
         "desc": "Standard Track Day",
@@ -1098,7 +994,7 @@
     {
         "company": 2,
         "date": "2018-07-03",
-        "desc": "Donington Park Grand Prix Circuit 108 db day worth 2 curves !",
+        "desc": "Donington Park Grand Prix Circuit 108 db day worth 2 Curves!",
         "kind": 1,
         "track": "Donington Park",
         "url": "http://www.focusedevents.com/book-01?ref=26a5d666c050d8f866af76516cea087888564b19256a22a9714b8299befb0718"
@@ -1418,7 +1314,7 @@
     {
         "company": 2,
         "date": "2018-07-18",
-        "desc": "Donington Park 98db day on a Wednesday worth 1 Curve !",
+        "desc": "Donington Park 98db day on a Wednesday worth 1 Curve!",
         "kind": 1,
         "track": "Donington Park",
         "url": "http://www.focusedevents.com/book-01?ref=85c4b5054db65a49c3d3d49dfc24a93d19545d613707dca05f119a6c24e42cee"
@@ -1434,7 +1330,7 @@
     {
         "company": 2,
         "date": "2018-07-18",
-        "desc": "Silverstone MotoGP worth 2 curves !",
+        "desc": "Silverstone MotoGP worth 2 Curves!",
         "kind": 1,
         "track": "Silverstone - Moto GP",
         "url": "http://www.focusedevents.com/book-01?ref=c8421a74ec8b5ebc454a9b44f5ec68a84fa8b1b53cb486cd7486712f430eee45"
@@ -1506,7 +1402,7 @@
     {
         "company": 2,
         "date": "2018-07-23",
-        "desc": "Donington Park 98db day on a Monday worth 1 Curve !",
+        "desc": "Donington Park 98db day on a Monday worth 1 Curve! With Hodgy!",
         "kind": 1,
         "track": "Donington Park",
         "url": "http://www.focusedevents.com/book-01?ref=32d620cfaed322d0e894834d00b25388272e9ad3d96dcb1eb888492b36b41d57"
@@ -1658,7 +1554,7 @@
     {
         "company": 2,
         "date": "2018-07-30",
-        "desc": "Silverstone MotoGP worth 2 curves !",
+        "desc": "Silverstone MotoGP worth 2 Curves! With Hodgy!",
         "kind": 1,
         "track": "Silverstone - Moto GP",
         "url": "http://www.focusedevents.com/book-01?ref=d4c00c465a65e7938f52c336d5185a26896de19c730133818f96cb6ae73f9ab3"
@@ -1842,7 +1738,7 @@
     {
         "company": 2,
         "date": "2018-08-14",
-        "desc": "Donington Park Grand Prix Circuit 108 db day worth 2 curves !",
+        "desc": "Donington Park Grand Prix Circuit 108 db day worth 2 Curves!",
         "kind": 1,
         "track": "Donington Park",
         "url": "http://www.focusedevents.com/book-01?ref=e1e14f205678e16b0e6f0cfe4bcf4f36895ba74081791b789af6b89786128e2f"
@@ -2026,7 +1922,7 @@
     {
         "company": 2,
         "date": "2018-08-23",
-        "desc": "Donington Park Grand Prix Circuit 108 db day worth 2 curves !",
+        "desc": "Donington Park Grand Prix Circuit 108 db day worth 2 Curves!",
         "kind": 1,
         "track": "Donington Park",
         "url": "http://www.focusedevents.com/book-01?ref=a1621881fd47a1ac42bafd7c6566f5d8bad90c5bd1e206581d993b2d9353d9d0"
@@ -2298,7 +2194,7 @@
     {
         "company": 2,
         "date": "2018-09-04",
-        "desc": "Donington Park Grand Prix Circuit 108 db day worth 2 curves !",
+        "desc": "Donington Park Grand Prix Circuit 108 db day worth 2 Curves!",
         "kind": 1,
         "track": "Donington Park",
         "url": "http://www.focusedevents.com/book-01?ref=b23081083cea0a8e5fcf469bca4052fdf5614dfa3a80c6733731e41fa76d9a28"
@@ -2330,7 +2226,7 @@
     {
         "company": 2,
         "date": "2018-09-05",
-        "desc": "Silverstone MotoGP worth 2 curves !",
+        "desc": "Silverstone MotoGP worth 2 Curves!",
         "kind": 1,
         "track": "Silverstone - Moto GP",
         "url": "http://www.focusedevents.com/book-01?ref=aa0abcd09962e080a587d23b6e3c3f01d2549c02e3c4482e5e8dd0d052750bcf"
@@ -2482,7 +2378,7 @@
     {
         "company": 2,
         "date": "2018-09-14",
-        "desc": "Donington Park 98db day on a Friday worth 1 Curve !",
+        "desc": "Donington Park 98db day on a Friday worth 1 Curve!",
         "kind": 1,
         "track": "Donington Park",
         "url": "http://www.focusedevents.com/book-01?ref=88665b33b49c84f0f2123ca1370445501c899be632d8557f000bf5532cddcde4"
@@ -2594,7 +2490,7 @@
     {
         "company": 2,
         "date": "2018-09-24",
-        "desc": "Donington Park 98db day on a Monday worth 1 Curve !",
+        "desc": "Donington Park 98db day on a Monday worth 1 Curve! With Hodgy!",
         "kind": 1,
         "track": "Donington Park",
         "url": "http://www.focusedevents.com/book-01?ref=f5696f6dab60f983c5e41620a0fa4725f9fd2d52e262d6bf886baec1d7e19eb0"
@@ -2682,7 +2578,7 @@
     {
         "company": 2,
         "date": "2018-10-10",
-        "desc": "Donington Park 98db day on a Wednesday worth 1 Curve !",
+        "desc": "Donington Park 98db day on a Wednesday worth 1 Curve!",
         "kind": 1,
         "track": "Donington Park",
         "url": "http://www.focusedevents.com/book-01?ref=3b7c2d090da42d7fb2bb7665487c0f905e0392d934f206eedff757233f19f9f2"
