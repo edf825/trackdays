@@ -57,7 +57,16 @@ def parse(elem):
   if len(labels) < 7:
     return None
 
-  (date, circuit, subcircuit, desc) = map(lambda x: x.contents[0], labels[2:6])
+  try:
+   (date, circuit, subcircuit, desc1, desc2) = map(
+     lambda x: x.text.encode('utf-8', 'ignore'), labels[1:6])
+   price = labels[-1].text.encode('utf-8', 'ignore')
+  except ValueError as e:
+    print e
+    print 'skipping {}'.format(labels)
+    return None
+
+# TODO: use avail
 
 # bleh. filter out the header.
   if date == 'Track':
@@ -68,7 +77,7 @@ def parse(elem):
     return None
 
   date = parser.parse(date, dayfirst=True)
-  kind = toKind(desc)
+  kind = toKind(desc1)
   circuit = cleanCircuit(circuit, subcircuit)
   url = 'https://www.trackdays.co.uk' + elem.a['href'] if elem.a else None
 
@@ -77,7 +86,7 @@ def parse(elem):
     'date': date,
     'track': circuit,
     'kind': kind,
-    'desc': desc,
+    'desc': '{}; {}; {}'.format(desc1, desc2, price),
     'url': url,
   }
 
