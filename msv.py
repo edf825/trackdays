@@ -63,12 +63,18 @@ def parse(elem):
 # Where 'sn' is the track (Snetterton 300)
 # and 'n' is a type modifier (Novice)
   url = elem.a['href']
-  match = re.search('(\d\d\d\d/.*/\d+)(.*)\/', url)
+  match = re.search('(\d\d\d\d/.*/\d\d?)(.*)\/', url)
+
   if not match:
     print 'FAILED TO MATCH ', url
     return None
 
-  date = parser.parse(match.group(1))
+  try:
+    date = parser.parse(match.group(1))
+  except ValueError:
+    print 'Skipping invalid date {}; url = {}'.format(match.group(1), url)
+    return None
+
   meta = match.group(2).strip('-').split('-')
   desc = elem.a.parent.find_previous('td').contents[0]
 
