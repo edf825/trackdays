@@ -6,6 +6,8 @@ import re
 def get_track(meta):
   if meta.startswith('bhgp'):
     return 'Brands Hatch Grand Prix'
+  elif meta.startswith('gp'):
+    return 'Brands Hatch Grand Prix'
   elif meta.startswith('bh'):
     return 'Brands Hatch Indy'
   elif meta.startswith('op'):
